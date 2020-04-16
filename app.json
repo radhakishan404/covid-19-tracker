@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "covid-tracker",
+    "slug": "covid-tracker",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash-1.png",
+    "splash": {
+      "image": "./assets/splash-1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EEEEEE"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.radhakishan.covid19",
+      "versionCode": 1,
+      "permissions": [],
+      "icon": "./assets/splash-1.png"
+    }
+  }
+}
